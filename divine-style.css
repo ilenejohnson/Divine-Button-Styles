@@ -1,0 +1,33 @@
+/* divine-style.css */
+
+.wp-block-button.is-style-button-box-shadow .wp-block-button__link {
+  border: 1px solid;
+
+  box-shadow: 5px 5px #888888;
+}
+.wp-block-button.is-style-button-box-shadow-ul .wp-block-button__link {
+  border: 1px solid;
+
+  box-shadow: -5px -5px #888888;
+}
+
+.wp-block-button.is-style-button-box-shadow-blur .wp-block-button__link {
+  -webkit-box-shadow: 0px 0px 13px 8px rgba(103, 103, 103, 0.73);
+  box-shadow: 0px 0px 13px 8px rgba(103, 103, 103, 0.73);
+}
+
+.wp-block-button.is-style-button-box-shadow-blur-inside .wp-block-button__link {
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, inset 3px 3px 16px 4px #cacaca;
+  box-shadow: 0px 10px 13px -7px #000000, inset 3px 3px 16px 4px #cacaca;
+}
+.wp-block-button.is-style-button-box-shadow-blur-lr .wp-block-button__link {
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 8px 13px 13px 6px #bfbfbf;
+  box-shadow: 0px 10px 13px -7px #000000, 8px 13px 13px 6px #bfbfbf;
+}
+.wp-block-button.is-style-button-box-shadow-bottom-shadow
+  .wp-block-button__link {
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    0px 13px 7px -2px rgba(26, 144, 191, 0.8);
+  box-shadow: 0px 10px 13px -7px #000000,
+    0px 13px 7px -2px rgba(26, 144, 191, 0.8);
+}
